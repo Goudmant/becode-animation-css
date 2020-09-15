@@ -1,10 +1,36 @@
+body {
+    background-color: black;
 
-p {
-    color: #F89B4D;
-    text-align: center;
-    border-style: solid;
-    border:10%;
-    .survol:hover {
-        background-color: palegreen;
-      }
 }
+.box1 {
+    text-align: center;
+}
+.click {
+    margin-top: 30px;
+    font-weight: bold;
+    padding: 20px;
+    color: #fff;
+    border: 5px solid #fff;
+    display: inline-block;
+    transition: all .5s ease;
+}
+
+.survol:hover {
+    background: #fff;
+    color: #232323;
+}
+
+.scale:hover {
+    background: #fff;
+    color: #232323;
+    transform: scale(1.2);
+}
+
+.right:hover {
+    transform: translate(70px);
+    background: #fff;
+    color: #232323;
+}
+
+
+
