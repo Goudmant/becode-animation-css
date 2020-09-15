@@ -1,0 +1,11 @@
+p {
+  color: #F89B4D;
+  text-align: center;
+  border-style: solid;
+  border: 10%;
+}
+
+p .survol:hover {
+  background-color: palegreen;
+}
+/*# sourceMappingURL=style.css.map */
